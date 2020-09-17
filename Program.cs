@@ -10,14 +10,6 @@ namespace calculator
     {
         static void Main(string[] args)
         {
-            //string str = Console.ReadLine();
-            //int a = int.Parse(str);
-
-            //str = Console.ReadLine();
-            //int b = int.Parse(str);
-
-            //Console.WriteLine(a % b);
-
             Console.WriteLine("Введите первое значение");
             int a = int.Parse(Console.ReadLine());
 
@@ -52,9 +44,6 @@ namespace calculator
                     Convert.ToDouble(a);
                     Convert.ToDouble(b);
                     Convert.ToDouble(result);
-                    //Convert.ToInt32(a);
-                    //Convert.ToInt32(b);
-                    //Convert.ToInt32(result);
 
                     result = a / b;
                 }
