@@ -1,0 +1,7 @@
+D:\Dropbox\_currently_works\c#\calculator\bin\Debug\calculator.exe.config
+D:\Dropbox\_currently_works\c#\calculator\bin\Debug\calculator.exe
+D:\Dropbox\_currently_works\c#\calculator\bin\Debug\calculator.pdb
+D:\Dropbox\_currently_works\c#\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+D:\Dropbox\_currently_works\c#\calculator\obj\Debug\calculator.exe
+D:\Dropbox\_currently_works\c#\calculator\obj\Debug\calculator.pdb
+D:\Dropbox\_currently_works\c#\calculator\obj\Debug\calculator.csprojAssemblyReference.cache
