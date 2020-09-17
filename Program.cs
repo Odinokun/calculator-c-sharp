@@ -10,41 +10,57 @@ namespace calculator
     {
         static void Main(string[] args)
         {
+            //string str = Console.ReadLine();
+            //int a = int.Parse(str);
+
+            //str = Console.ReadLine();
+            //int b = int.Parse(str);
+
+            //Console.WriteLine(a % b);
 
             Console.WriteLine("Введите первое значение");
-            string inputValStr = Console.ReadLine();
-            int a = int.Parse(inputValStr);
+            int a = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Введите оператор");
-            inputValStr = Console.ReadLine();
-            char oper = char.Parse(inputValStr);
+            string oper = Console.ReadLine();
 
             Console.WriteLine("Введите второе значение");
-            inputValStr = Console.ReadLine();
-            int b = int.Parse(inputValStr);
+            int b = int.Parse(Console.ReadLine());
 
-            Console.WriteLine(a + oper + b);
+            int result = 0;
 
-            //if (oper == "+") 
-            //{
-            //    Console.WriteLine(a + b);
-            //}
-            //else if (oper == "-")
-            //{
-            //    Console.WriteLine(a - b);
-            //}
-            //else if (oper == "*")
-            //{
-            //    Console.WriteLine(a * b);
-            //}
-            //else if (oper == "/")
-            //{
-            //    Console.WriteLine(a / b);
-            //} else
-            //{
-            //    Console.WriteLine("Введите корректные данные.");
-            //}
+            if (oper == "+")
+            {
+                result = a + b;
+            }
+            else if (oper == "-")
+            {
+                result = a - b;
+            }
+            else if (oper == "*")
+            {
+                result = a * b;
+            }
+            else if (oper == "/")
+            {
+                if ((a / b) == 0)
+                {
+                    result = a / b;
+                }
+                else
+                {
+                    Convert.ToDouble(a);
+                    Convert.ToDouble(b);
+                    Convert.ToDouble(result);
+                    //Convert.ToInt32(a);
+                    //Convert.ToInt32(b);
+                    //Convert.ToInt32(result);
 
+                    result = a / b;
+                }
+            }
+
+            Console.WriteLine(result);
         }
     }
 }
