@@ -35,7 +35,7 @@ namespace calculator
             }
             else if (oper == "/")
             {
-                if ((a / b) == 0)
+                if ((a % b) == 0)
                 {
                     result = a / b;
                 }
